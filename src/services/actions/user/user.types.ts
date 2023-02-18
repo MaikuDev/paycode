@@ -3,7 +3,7 @@ interface userArgType {
   email?: string;
 }
 
-type SignInArgsType = [userArgType];
+type SignInArgsType = [userArgType] | any;
 
 interface ProfileType {
   name: string;
