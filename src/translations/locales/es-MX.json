@@ -1,0 +1,33 @@
+{
+  "auth": {
+    "email": {
+      "placeholder": "Email"
+    },
+    "enter": "Login",
+    "error": "Hubo un error al iniciar sesión, verifique sus datos e intente de nuevo",
+    "password": {
+      "placeholder": "Password"
+    }
+  },
+  "dashboard": {
+    "chart": {
+      "income": "Ingresos"
+    },
+    "payment": "Método de pago más usado",
+    "payments": {
+      "card": "Tarjeta de credito/debito"
+    },
+    "ticket": {
+      "average": "Ticket promedio",
+      "top": "Ticket tope"
+    },
+    "title": "<p>Reporte de <b>Hoy</b></p>",
+    "welcome": "Bienvenido {{name}}"
+  },
+  "errors": {
+    "email": "Ingrese una dirección de correo válida",
+    "password": "Tu contraseña debe contener 8 caracteres, por lo menos 1 letra y 1 numero",
+    "required": "Completa este campo",
+    "same": "Los campos no coinciden"
+  }
+}

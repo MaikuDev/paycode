@@ -1,0 +1,36 @@
+/* eslint-disable */
+// More info here: https://github.com/i18next/i18next-parser#options
+
+module.exports = {
+  contextSeparator: '_',
+  createOldCatalogs: false,
+  defaultNamespace: 'translation',
+  defaultValue: '',
+  indentation: 2,
+  keepRemoved: false,
+  keySeparator: '.',
+  lexers: {
+    hbs: ['HandlebarsLexer'],
+    handlebars: ['HandlebarsLexer'],
+    htm: ['HTMLLexer'],
+    html: ['HTMLLexer'],
+    mjs: ['JavascriptLexer'],
+    js: ['JsxLexer'],
+    ts: ['JavascriptLexer'],
+    jsx: ['JsxLexer'],
+    tsx: ['JsxLexer'],
+    default: ['JavascriptLexer'],
+  },
+  lineEnding: 'auto',
+  locales: ['es-MX'],
+  namespaceSeparator: false,
+  output: 'src/translations/locales/$LOCALE.json',
+  pluralSeparator: '_',
+  input: undefined,
+  sort: true,
+  skipDefaultValues: false,
+  useKeysAsDefaultValue: false,
+  verbose: false,
+  failOnWarnings: false,
+  customValueTemplate: null,
+};
